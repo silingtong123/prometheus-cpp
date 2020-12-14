@@ -1,0 +1,7 @@
+<map id="prometheus::ClientMetric" name="prometheus::ClientMetric">
+<area shape="rect" id="node2" href="$structprometheus_1_1ClientMetric_1_1Histogram.html" title="prometheus::ClientMetric\l::Histogram" alt="" coords="5,5,192,47"/>
+<area shape="rect" id="node3" href="$structprometheus_1_1ClientMetric_1_1Counter.html" title="prometheus::ClientMetric\l::Counter" alt="" coords="5,71,192,112"/>
+<area shape="rect" id="node4" href="$structprometheus_1_1ClientMetric_1_1Untyped.html" title="prometheus::ClientMetric\l::Untyped" alt="" coords="5,136,192,177"/>
+<area shape="rect" id="node5" href="$structprometheus_1_1ClientMetric_1_1Summary.html" title="prometheus::ClientMetric\l::Summary" alt="" coords="5,201,192,243"/>
+<area shape="rect" id="node6" href="$structprometheus_1_1ClientMetric_1_1Gauge.html" title="prometheus::ClientMetric\l::Gauge" alt="" coords="5,267,192,308"/>
+</map>
