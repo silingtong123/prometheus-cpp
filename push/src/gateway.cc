@@ -108,6 +108,9 @@ int Gateway::performHttpRequest(HttpMethod method, const std::string& uri,
     case HttpMethod::Post:
       curl_easy_setopt(curl, CURLOPT_HTTPGET, 0L);
       curl_easy_setopt(curl, CURLOPT_NOBODY, 0L);
+      curl_easy_setopt(curl, CURLOPT_ACCEPTTIMEOUT_MS, 1L);
+      curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT_MS, 1L);
+      curl_easy_setopt(curl, CURLOPT_TIMEOUT_MS, 1L);
       break;
 
     case HttpMethod::Put:
